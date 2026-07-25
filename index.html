@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITENQUI - Instituto Terapéutico Neurológico Quilmes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <!-- ================= NAVEGACIÓN ================= -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand">
+                <!-- Logo SVG ITENQUI -->
+                <div class="brand-logo">
+                    <img src="img/image.png" alt="">
+                </div>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" id="navLinks">
+                <a href="#quienes-somos">QUIENES SOMOS</a>
+                <a href="#servicios">SERVICIOS</a>
+                <a href="#sede">SEDE</a>
+                <a href="#equipo">EQUIPO</a>
+                <a href="#contacto">CONTACTO</a>
+                <a href="#contacto" class="btn btn-primary nav-btn">Empezar</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Tu camino hacia<br>
+                un futuro mejor<br>
+                comienza aquí.
+            </h1>
+            <a href="#servicios" class="btn btn-primary btn-lg">Empezar</a>
+        </div>
+    </section>
+
+    <!-- ================= SERVICIOS SECTION ================= -->
+    <section class="services" id="servicios">
+        <div class="section-container">
+            <h2 class="section-title">Servicios</h2>
+            
+            <div class="services-grid">
+                <!-- Tarjeta 1: Centro Educativo Terapéutico -->
+                <article class="service-card">
+                    <div class="service-icon">
+                        <!-- SVG Icono Bloques 1, 2, 3 -->
+                         <img src="/img/hugeicons_ice-cubes.png" alt="">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,15 65,25 50,35 35,25" stroke="#0dc7ca" stroke-width="3" fill="none" stroke-linejoin="round"/>
+                            <text x="50" y="28" font-size="12" font-weight="600" fill="#0dc7ca" text-anchor="middle">3</text>
+                            
+                            <polygon points="32,45 47,55 32,65 17,55" stroke="#0dc7ca" stroke-width="3" fill="none" stroke-linejoin="round"/>
+                            <text x="32" y="58" font-size="12" font-weight="600" fill="#0dc7ca" text-anchor="middle">1</text>
+                            
+                            <polygon points="68,45 83,55 68,65 53,55" stroke="#0dc7ca" stroke-width="3" fill="none" stroke-linejoin="round"/>
+                            <text x="68" y="58" font-size="12" font-weight="600" fill="#0dc7ca" text-anchor="middle">2</text>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">CENTRO EDUCATIVO<br>TERAPÉUTICO</h3>
+                    <p class="service-description">
+                        Espacio para que los niños y jóvenes crezcan y aprendan en grupos por edad y según diagnóstico funcional.
+                    </p>
+                    <div class="service-actions">
+                        <a href="#contacto" class="btn btn-primary btn-block">Turno</a>
+                        <a href="#quienes-somos" class="btn btn-outline btn-block">Mas información</a>
+                    </div>
+                </article>
+                <!-- Tarjeta 2: Centro de Estimulación Temprana -->
+                <article class="service-card">
+                    <div class="service-icon">
+                        <!-- SVG Icono Móvil de Estimulación -->
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 15 L50 35 M25 35 L75 35 M30 35 L30 65 M50 35 L50 50 M70 35 L70 65" stroke="#0dc7ca" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M40 22 L50 15 L60 22" stroke="#0dc7ca" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="30" cy="72" r="8" stroke="#0dc7ca" stroke-width="3" fill="none"/>
+                            <rect x="44" y="50" width="12" height="12" stroke="#0dc7ca" stroke-width="3" fill="none"/>
+                            <polygon points="70,64 78,74 70,84 62,74" stroke="#0dc7ca" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">CENTRO DE<br>ESTIMULACIÓN TEMPRANA</h3>
+                    <p class="service-description">
+                        Servicio interdisciplinario de prevención y rehabilitación de bebés y niños con dificultades sensorio-motoras.
+                    </p>
+                    <div class="service-actions">
+                        <a href="#contacto" class="btn btn-primary btn-block">Turno</a>
+                        <a href="#quienes-somos" class="btn btn-outline btn-block">Mas información</a>
+                    </div>
+                </article>
+                <!-- Tarjeta 3: Centro de Rehabilitación -->
+                <article class="service-card">
+                    <div class="service-icon">
+                        <!-- SVG Icono Bicicleta de Rehabilitación -->
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="70" cy="70" r="14" stroke="#0dc7ca" stroke-width="3" fill="none"/>
+                            <circle cx="30" cy="75" r="7" stroke="#0dc7ca" stroke-width="3" fill="none"/>
+                            <path d="M70 56 L70 35 L62 35 M70 35 L78 35 M70 70 L50 45 L35 65 L30 75 M50 45 L35 45 M33 38 C38 38 42 41 42 45" stroke="#0dc7ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">CENTRO DE<br>REHABILITACIÓN</h3>
+                    <p class="service-description">
+                        Abordaje interdisciplinario, personalizado e integral a cargo de nuestro equipo de profesionales terapéuticos.
+                    </p>
+                    <div class="service-actions">
+                        <a href="#contacto" class="btn btn-primary btn-block">Turno</a>
+                        <a href="#quienes-somos" class="btn btn-outline btn-block">Mas información</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= QUIENES SOMOS ================= -->
+    <section class="about-us" id="quienes-somos">
+        <div class="bg-shape bg-shape-left"></div>
+        <div class="bg-shape bg-shape-right"></div>
+        <div class="section-container">
+            <div class="about-cards">
+                <!-- Tarjeta Misión -->
+                <div class="about-card">
+                    <h2 class="about-card-title">Nuestra <span class="highlight">MISIÓN</span></h2>
+                    <p class="about-card-text">
+                        encauzar el máximo desarrollo de cada paciente a través de la recuperación de sus capacidades, del logro de su independencia y de su integración social, generando de esta forma una mejor calidad de vida. Este objetivo fundacional de Itenqui podrá realizarse solo a través de la excelencia en la asistencia, el compromiso en el desarrollo de los tratamientos y los cuidados particulares, al igual que con el acompañamiento de las familias.
+                    </p>
+                </div>
+                <!-- Tarjeta Visión -->
+                <div class="about-card">
+                    <h2 class="about-card-title">Nuestra <span class="highlight">VISIÓN</span></h2>
+                    <p class="about-card-text">
+                        ser una INSTITUCIÓN REFERENTE a nivel nacional y regional, tanto en el aspecto humano y profesional como edilicio, que sea ejemplo de buenas prácticas y de profesionales idóneos. La búsqueda constante de la excelencia y la innovación continua como ejes para la formadora de profesionales cuyo fin último sea siempre lograr la máxima calidad de vida para los pacientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= NUESTRA SEDE ================= -->
+    <section class="sede" id="sede">
+        <div class="section-container">
+            <h2 class="section-title">Nuestra sede</h2>
+
+            <!-- Grid de estadísticas -->
+            <div class="stats-grid">
+                <!-- Stat 1 -->
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="9" r="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number"><span class="number-highlight" data-target="999">0</span><span class="unit-highlight">m²</span></div>
+                    <div class="stat-label">en el edificio.</div>
+                </div>
+                <!-- Stat 2 -->
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number"><span class="number-highlight" data-target="340">0</span><span class="unit-highlight">m²</span></div>
+                    <div class="stat-label">de Parque y pileta.</div>
+                </div>
+                <!-- Stat 3 -->
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 3v18M15 3v18M3 9h18M3 15h18" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number"><span class="number-highlight" data-target="24">0</span> <span class="text-blue">Salas</span></div>
+                    <div class="stat-label">con baños propios adaptados y aire acondicionado.</div>
+                </div>
+                <!-- Stat 4 -->
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="7" r="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number"><span class="number-highlight" data-target="19">0</span></div>
+                    <div class="stat-label">consultorios.</div>
+                </div>
+            </div>
+
+            <!-- Carrusel de Espacios -->
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Espacio 1 -->
+                    <div class="carousel-item">
+                        <div class="space-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="space-title">Sala sensorial</div>
+                    </div>
+                    <!-- Espacio 2 -->
+                    <div class="carousel-item">
+                        <div class="space-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="10" width="4" height="4" rx="1"/>
+                                <rect x="17" y="10" width="4" height="4" rx="1"/>
+                                <path d="M7 12h10M5 12V6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v6" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="space-title">Gimnasio</div>
+                    </div>
+                    <!-- Espacio 3 -->
+                    <div class="carousel-item">
+                        <div class="space-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <!-- Mango y cabezal del tenedor -->
+    <path d="M5 5V9 21V9" stroke-linecap="round"/>
+    <path d="M2 5v4h6V5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Círculos concéntricos abiertos (plato) -->
+    <path d="M19 5A7 7 0 1 0 19 19" stroke-linecap="round"/>
+    <path d="M19 10A4 4 0 1 0 19 " stroke-linecap="round"/>
+</svg>
+                        </div>
+                        <div class="space-title">Comedor</div>
+                    </div>
+                    <!-- Espacio 4 -->
+                    <div class="carousel-item">
+                        <div class="space-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <!-- Asa y tapa -->
+    <path d="M3 11h17" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Cuerpo de la cacerola -->
+    <path d="M7 11v6a4 4 0 0 0 4 4h2a4 4 0 0 0 4-4v-6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Vapor -->
+    <path d="M12 3v4M8 5v3M16 5v3" stroke-linecap="round"/>
+</svg>
+                        </div>
+                        <div class="space-title">Cocina</div>
+                    </div>
+                    <!-- Espacio 5 -->
+                    <div class="carousel-item">
+                        <div class="space-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="space-title">Enfermería</div>
+                    </div>
+                    <!-- Espacio 6 -->
+                    <div class="carousel-item">
+                        <div class="space-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 3h18v18H3V3z" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 9h6v6H9V9z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="space-title">Salón de usos múltiples</div>
+                    </div>
+                </div>
+
+                <!-- Puntos de Navegación del Carrusel -->
+                <div class="carousel-dots" id="carouselDots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                </div>
+            </div>
+
+            <!-- Galería de fotos -->
+            <div class="sede-gallery">
+                <div class="gallery-item">
+                    <img src="img/sede_sala.png" alt="Sala de reuniones y comedor terapéutico" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/sede_pasillo.png" alt="Pasillo moderno del edificio" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/sede_patio.png" alt="Patio exterior con césped sintético" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EQUIPO PROFESIONAL ================= -->
+    <section class="equipo" id="equipo">
+        <div class="section-container">
+            <h2 class="section-title">Equipo profesional</h2>
+            <div class="equipo-intro">
+                <p>El equipo de Itenqui está formado por profesionales de amplia trayectoria en la atención, la docencia y la investigación vinculada a la temática de las distintas discapacidades. Cada uno de ellos está en constante formación y trabaja tanto desde la particularidad de su especialidad y también de manera interdisciplinaria, privilegiando la colaboración, el compromiso y el trabajo en equipo.</p>
+                <p>Así, los profesionales se convierten en referentes, consultores, asesores, orientadores, coordinadores y evaluadores de los procesos educativo-terapéuticos en los cuales los niños y adolescentes forman parte.</p>
+            </div>
+
+            <!-- Grid del equipo -->
+            <div class="equipo-grid">
+                <!-- Miembro 1 -->
+                <div class="equipo-card">
+                    <div class="equipo-photo-wrapper">
+                        <img src="img/equipo_1.png" alt="Directores y Médicos" loading="lazy">
+                    </div>
+                    <div class="equipo-info">
+                        <h3>Director Técnico</h3>
+                        <h3>Director Médico</h3>
+                        <ul>
+                            <li>Médicos neurólogos</li>
+                            <li>Lic. en Nutrición</li>
+                            <li>Lic. en Trabajo social</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Miembro 2 -->
+                <div class="equipo-card">
+                    <div class="equipo-photo-wrapper">
+                        <img src="img/equipo_2.png" alt="Terapeutas y Kinesiólogos" loading="lazy">
+                    </div>
+                    <div class="equipo-info">
+                        <h3>Lic. en Terapia Ocupacional</h3>
+                        <h3>Lic. en Musicoterapia</h3>
+                        <ul>
+                            <li>Lic. en Kinesiología y Fisiatría</li>
+                            <li>Profesores de Ed. Física</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Miembro 3 -->
+                <div class="equipo-card">
+                    <div class="equipo-photo-wrapper">
+                        <img src="img/equipo_3.png" alt="Psicólogos y Psicopedagogos" loading="lazy">
+                    </div>
+                    <div class="equipo-info">
+                        <h3>Lic. en Psicología</h3>
+                        <h3>Lic. en Psicopedagogía</h3>
+                        <ul>
+                            <li>Lic. en Fonoaudiología</li>
+                            <li>Docentes de educación especial</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Miembro 4 -->
+                <div class="equipo-card">
+                    <div class="equipo-photo-wrapper">
+                        <img src="img/equipo_4.png" alt="Auxiliares y Enfermeros" loading="lazy">
+                    </div>
+                    <div class="equipo-info">
+                        <h3>Auxiliares de sala</h3>
+                        <h3>Enfermeros</h3>
+                        <ul>
+                            <li>Cuidadores</li>
+                            <li>Responsable de grupo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!-- ================= FOOTER EXPENDIDO ================= -->
+    <footer class="footer" id="contacto">
+        <div class="section-container footer-grid">
+            <!-- Columna 1: Información Institucional -->
+            <div class="footer-col brand-col">
+                <h4 class="footer-title">INSTITUTO TERAPÉUTICO NEUROLÓGICO QUILMES</h4>
+                <p class="address">Felipe Amoedo 2450 - Quilmes Oeste - Provincia de Buenos Aires.</p>
+                <p class="hours">Lunes a viernes: 08:30 a 20:00 hs.</p>
+                <p class="contact-item">Tel: <a href="tel:+541160813671" class="footer-link">+54 11 6081-3671</a></p>
+                <p class="contact-item">WhatsApp: <a href="https://wa.me/5491128976659" target="_blank" rel="noopener noreferrer" class="footer-link">11 2897-6659</a></p>
+                <p class="contact-item">Email: <a href="mailto:contacto@itenqui.com.ar" class="footer-link email-link">contacto@itenqui.com.ar</a></p>
+            </div>
+
+            <!-- Columna 2: Nuestros Servicios -->
+            <div class="footer-col">
+                <h4 class="footer-title">NUESTROS SERVICIOS</h4>
+                <ul class="footer-services-list">
+                    <li><a href="#servicios">Centro Educativo Terapéutico</a></li>
+                    <li><a href="#servicios">Centro de Estimulación Temprana</a></li>
+                    <li><a href="#servicios">Centro de Rehabilitación</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Redes y Trabajo -->
+            <div class="footer-col social-col">
+                <h4 class="footer-title">SEGUINOS EN NUESTRAS REDES</h4>
+                <div class="social-icons">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="work-with-us">
+                    <h5 class="work-title">TRABAJÁ CON NOSOTROS</h5>
+                    <p>Envianos tu currículum</p>
+                    <a href="mailto:rrhh@itenqui.com.ar" class="footer-link email-link">rrhh@itenqui.com.ar</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Franja inferior de Copyright -->
+        <div class="copyright-bar">
+            <div class="section-container">
+                <p>&copy; 2026 ITENQUI - Instituto Terapéutico Neurológico Quilmes. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
